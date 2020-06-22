@@ -8,17 +8,17 @@
  * @license LGPL-3.0-or-later
  */
 
-namespace Contao\SkeletonBundle\Tests;
+namespace Pdir\TimeToReadBundle\Tests;
 
-use Contao\SkeletonBundle\ContaoSkeletonBundle;
+use Pdir\TimeToReadBundle\ContaoTimeToReadBundle;
 use PHPUnit\Framework\TestCase;
 
-class ContaoSkeletonBundleTest extends TestCase
+class ContaoTimeToReadBundleTest extends TestCase
 {
     public function testCanBeInstantiated()
     {
-        $bundle = new ContaoSkeletonBundle();
+        $bundle = new ContaoTimeToReadBundle();
 
-        $this->assertInstanceOf('Contao\SkeletonBundle\ContaoSkeletonBundle', $bundle);
+        $this->assertInstanceOf('Pdir\TimeToReadBundle\ContaoTimeToReadBundle', $bundle);
     }
 }

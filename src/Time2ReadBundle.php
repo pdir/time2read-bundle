@@ -8,10 +8,10 @@
  * @license LGPL-3.0-or-later
  */
 
-namespace Contao\SkeletonBundle;
+namespace Pdir\TimeToReadBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class ContaoSkeletonBundle extends Bundle
+class ContaoTimeToReadBundle extends Bundle
 {
 }

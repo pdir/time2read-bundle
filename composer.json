@@ -1,21 +1,21 @@
 {
-    "name": "contao/skeleton-bundle",
+    "name": "pdir/time2read-bundle",
     "type": "contao-bundle",
-    "description": "Skeleton for custom Contao 4 bundles",
+    "description": "Diese Erweiterung ermittelt die Lesezeit eines News-Artikels und stellt diese im Frontend zur Verfügung.",
     "homepage": "https://contao.org",
     "license": "LGPL-3.0-or-later",
     "authors": [{
-            "name": "Leo Feyer",
-            "homepage": "https://github.com/leofeyer"
+            "name": "ORÖ GmbH",
+            "homepage": "https://oroe.de"
         },
         {
-            "name": "Contao Community",
-            "homepage": "https://contao.org/contributors"
+            "name": "Contao-Stammtisch Dresden",
+            "homepage": "https://gondao.org"
         }
     ],
     "require": {
         "php": "^5.6 || ^7.0",
-        "contao/core-bundle": "4.4.*",
+        "contao/core-bundle": "^4.4",
         "symfony/framework-bundle": "^3.3"
     },
     "conflict": {
@@ -32,20 +32,20 @@
         "symfony/phpunit-bridge": "^3.2"
     },
     "extra": {
-        "contao-manager-plugin": "Contao\\SkeletonBundle\\ContaoManager\\Plugin"
+        "contao-manager-plugin": "Pdir\\TimeToReadBundle\\ContaoManager\\Plugin"
     },
     "autoload": {
         "psr-4": {
-            "Contao\\SkeletonBundle\\": "src/"
+            "Pdir\\TimeToReadBundle\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Contao\\SkeletonBundle\\Tests\\": "tests/"
+            "Pdir\\TimeToReadBundle\\Tests\\": "tests/"
         }
     },
     "support": {
-        "issues": "https://github.com/contao/skeleton-bundle/issues",
-        "source": "https://github.com/contao/skeleton-bundle"
+        "issues": "https://github.com/pdir/time2read-bundle/issues",
+        "source": "https://github.com/pdir/time2read-bundle"
     }
 }
