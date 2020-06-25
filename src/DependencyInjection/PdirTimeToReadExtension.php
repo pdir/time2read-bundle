@@ -15,7 +15,7 @@ use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 
-class TimeToReadExtension extends Extension
+class PdirTimeToReadExtension extends Extension
 {
     /**
      * {@inheritdoc}

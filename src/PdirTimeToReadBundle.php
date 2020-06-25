@@ -12,6 +12,6 @@ namespace Pdir\TimeToReadBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class ContaoTimeToReadBundle extends Bundle
+class PdirTimeToReadBundle extends Bundle
 {
 }
