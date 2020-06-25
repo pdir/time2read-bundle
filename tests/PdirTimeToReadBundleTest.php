@@ -10,15 +10,15 @@
 
 namespace Pdir\TimeToReadBundle\Tests;
 
-use Pdir\TimeToReadBundle\ContaoTimeToReadBundle;
+use Pdir\TimeToReadBundle\PdirTimeToReadBundle;
 use PHPUnit\Framework\TestCase;
 
-class ContaoTimeToReadBundleTest extends TestCase
+class PdirTimeToReadBundleTest extends TestCase
 {
     public function testCanBeInstantiated()
     {
-        $bundle = new ContaoTimeToReadBundle();
+        $bundle = new PdirTimeToReadBundle();
 
-        $this->assertInstanceOf('Pdir\TimeToReadBundle\ContaoTimeToReadBundle', $bundle);
+        $this->assertInstanceOf('Pdir\TimeToReadBundle\PdirTimeToReadBundle', $bundle);
     }
 }
