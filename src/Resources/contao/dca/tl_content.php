@@ -11,7 +11,7 @@ $GLOBALS['TL_DCA']['tl_content']['fields']['ttr_reading_time'] = [
     'label' => &$GLOBALS['TL_LANG']['tl_user']['ttr_reading_time'],
     'inputType' => 'text',
     'eval' => ['tl_class'=>'w50'],
-    'sql' => "int(1) NOT NULL default ''"
+    'sql' => "int(1) NOT NULL default 0"
 ];
 
 
