@@ -8,6 +8,12 @@
       <trans-unit id="tl_content.ttr_activate_reading_time.1">
         <target>Aktivierern Sie diese Option, wenn Sie die Lesezeit dazu addieren möchten.</target>
       </trans-unit>
+      <trans-unit id="tl_content.ttr_reading_time.0">
+        <target>Lesezeit</target>
+      </trans-unit>
+      <trans-unit id="tl_content.ttr_reading_time.1">
+        <target>Geben Sie hier die Lesezeit in Minuten ein.</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
