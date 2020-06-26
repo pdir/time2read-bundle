@@ -12,5 +12,5 @@ $GLOBALS['TL_DCA']['tl_content']['fields']['ttr_activate_reading_time'] = [
 ];
 
 PaletteManipulator::create()
-    ->addField('ttr_activate_reading_time', 'title_legend', PaletteManipulator::POSITION_APPEND)
+    ->addField('ttr_activate_reading_time', 'text', PaletteManipulator::POSITION_AFTER)
     ->applyToPalette('text', 'tl_content');
