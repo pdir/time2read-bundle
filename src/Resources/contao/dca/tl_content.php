@@ -7,7 +7,7 @@ $GLOBALS['TL_DCA']['tl_content']['fields']['ttr_activate_reading_time'] = [
     'exclude'               => true,
     'inputType'             => 'checkbox',
     'default'               => 0,
-    'eval'                  => ['tl_class' => 'w50'],
+    'eval'                  => ['tl_class' => 'm12 w50'],
     'sql'                   => "char(1) NOT NULL default ''"
 ];
 
@@ -15,7 +15,7 @@ $GLOBALS['TL_DCA']['tl_content']['fields']['ttr_reading_time'] = [
     'label'                 => &$GLOBALS['TL_LANG']['tl_content']['ttr_reading_time'],
     'exclude'               => true,
     'inputType'             => 'text',
-    'eval'                  => ['maxlength' => 3, 'rgxp' => 'digit'],
+    'eval'                  => ['maxlength' => 3, 'rgxp' => 'digit', 'tl_class' => 'w50'],
     'sql'                   => "int(3) unsigned NOT NULL default '0'"
 ];
 
